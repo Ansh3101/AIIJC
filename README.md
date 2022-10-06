@@ -2,7 +2,10 @@
 <b>Codebase For Team CSPDarknet53's Interpretation Of The `AI In Geoservices` Challenge From The Artificial Intelligence International Junior Contest</b>
 <br>
 
-## 
+## Contents
+- ### Code
+- ### Website Design
+- ### Details
 
 <br>
 
@@ -40,4 +43,10 @@
 - **Styling :**
   - **Images For Website**
   - **Styles For Website**
+
+<br>
+
+## Website Design
+
+https://user-images.githubusercontent.com/105856839/194222215-367939ee-b055-4c08-b87e-325a6f6197d1.mp4
 
