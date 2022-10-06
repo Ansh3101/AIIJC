@@ -1,10 +1,11 @@
 # Traffic Sign Recognition
 <b>Codebase For Team CSPDarknet53's Interpretation Of The `AI In Geoservices` Challenge From The Artificial Intelligence International Junior Contest</b>
+
 <br>
 
 ## Contents
 - ### Code
-- ### Website Design
+- ### Website Demo
 - ### Details
 
 <br>
@@ -46,7 +47,26 @@
 
 <br>
 
-## Website Design
+## Website Demo
 
 https://user-images.githubusercontent.com/105856839/194222215-367939ee-b055-4c08-b87e-325a6f6197d1.mp4
 
+<br>
+
+## Details
+
+### Model
+
+<b>Pre-Trained Model : EfficientNetB2 With Custom Head</b>
+
+<b>Image Size: (260, 260)</b>
+
+<b>Image Preprocessing:  `pseudo-labelling`, `albumentations`</b>
+
+<b>Training Time: 14 hours</b>
+
+<b>Training Accuracy: 99.86%</b>
+
+<b>Validation Accuracy: 99.72%</b>
+
+<b>Testing Accuracy: 99.2%</b>
