@@ -57,9 +57,9 @@ https://user-images.githubusercontent.com/105856839/194222215-367939ee-b055-4c08
 
 ### Model
 
-<b>Pre-Trained Model : EfficientNetB2 With Custom Head</b>
+<b>Pre-Trained Model : EfficientNetB0 With Custom Head</b>
 
-<b>Image Size: (260, 260)</b>
+<b>Image Size: (224, 224)</b>
 
 <b>Image Preprocessing:  `pseudo-labelling`, `albumentations`</b>
 
