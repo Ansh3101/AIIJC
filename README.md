@@ -1,11 +1,22 @@
-# AIIJC
-The Code For The Artificial Intelligence International Junior Contest For CSPDarknet53
+# Traffic Sign Recognition
+<b>Codebase For Team CSPDarknet53's Interpretation Of The `AI In Geoservices` Challenge From The Artificial Intelligence International Junior Contest</b>
 
-## Code :
+<br>
 
-- EfficientNetB2.ipynb : Notebook To **Bring Together The Pipeline**
+## Contents
+- ### Code
+- ### Website Demo
+- ### Details
 
-- Pipeline :
+<br>
+
+## Code
+
+### [Model Pipeline & Training:](https://github.com/Ansh3101/AIIJC/tree/main/Code)
+
+- **EfficientNetB2.ipynb : Notebook To Bring Together The Pipeline**
+
+- #### Pipeline :
   - **constants.py : Some Constant Values**
   - **dataset.py : Data Preprocessing / Loading**
   - **generate_submission.py : Generates Submissions For The Contest**
@@ -14,32 +25,48 @@ The Code For The Artificial Intelligence International Junior Contest For CSPDar
   - **utils.py : Helper Functions**
  
 
-## Website :
+### [Website :](https://github.com/Ansh3101/AIIJC/tree/main/Website)
 
 - **inference.py : Helper Function For Flask App**
 - **main.py : Flask App Backend**
 
-- App : 
+- **App :** 
   - **Test Images (From WikiPedia)**
   - **Class2Label Dictionary**
   - **English Conversion For Classes**
   - **Russian Conversion For Classes**
 
 
-- Templates :
+- **Frontend Code :**
   - **index.html : FrontEnd For Website HomePage**
   - **result.html : FrontEnd For Predictions**
 
-- Static :
+- **Styling :**
   - **Images For Website**
   - **Styles For Website**
 
+<br>
 
+## Website Demo
 
-<h2>Run Website</h2>
+https://user-images.githubusercontent.com/105856839/194222215-367939ee-b055-4c08-b87e-325a6f6197d1.mp4
 
-- **Install Dependencies**
-  - PyTorch CPU
-- **Open Terminal To Website Directory**
-- **Run  `FLASK_APP=main.py FLASK_ENV=development flask run`**
-- **Open Localhost Website And Sneak A Peek**
+<br>
+
+## Details
+
+### Model
+
+<b>Pre-Trained Model : EfficientNetB0 With Custom Head</b>
+
+<b>Image Size: (224, 224)</b>
+
+<b>Image Preprocessing:  `pseudo-labelling`, `albumentations`</b>
+
+<b>Training Time: 14 hours</b>
+
+<b>Training Accuracy: 99.86%</b>
+
+<b>Validation Accuracy: 99.72%</b>
+
+<b>Testing Accuracy: 99.2%</b>
